@@ -67,7 +67,8 @@ def addCSV(dics):
 
 def start():
     # createCSV()
-    driver = webdriver.Chrome(executable_path='D:\\workspace\\python\\BiliCount\\chromedriver.exe')
+    # driver = webdriver.Chrome(executable_path='D:\\workspace\\python\\BiliCount\\chromedriver.exe')
+    driver = webdriver.Chrome(executable_path='D:\\project\\VideoViewsCapture\\chromedriver.exe')
     driver.get("https://space.bilibili.com/390902621")
 
     parent = driver.find_element_by_css_selector("[class='section video']")
